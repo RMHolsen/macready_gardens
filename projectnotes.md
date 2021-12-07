@@ -26,7 +26,7 @@ User
     t.string :goal 
     
     user.total_stitches (map user.projects and add up all the sts_done)
-    user.free_stitches (user.total_stitches - user.allocated_stitches)
+    user.stitch_bank (user.total_stitches - user.allocated_stitches)
     user.allocated_stitches (something determined by user actions oy)
 
 Garden
