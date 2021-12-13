@@ -17,6 +17,9 @@ before_action :set_user, only: [:show, :edit, :update]
         end 
     end 
 
+    def show
+    end 
+
     def edit 
     end 
 
@@ -27,9 +30,7 @@ before_action :set_user, only: [:show, :edit, :update]
             render :edit 
         end 
     end 
-    
-    def show
-    end 
+
 
     # def destroy 
     # end 

@@ -47,7 +47,20 @@ A Plant has_many gardens through gardenplants
 That way multiple people can have the same plants planted in their gardens oyyyy so complicated for a baby dev. 
 
 ## Bugs 
+SMASHED: For whatever reason, having ApplicationController inherit from ActionController::API instead of ActionController::Base cut everything off from their proper routing/controllers/views, thereby kicking up no content errors. 
+LIVE: What the hell is looking for favicon.ico. Make it go away.
 
 ## Notes 
+General Menu Code, for future reference (after login methods are made)
+<% if logged_in? == true %>
+<h3>My Resources</h3>
+<p><%= link_to "View My Projects", projects_path %><br>
+<%= link_to "Create a Project", new_project_path %></p>
+<p><%= link_to "Log Out", logout_path %></p>
+<% else %>
+<br>
+<p><%= link_to "Log In", login_path %></p>
+<p><%= link_to "Sign up", signup_path %></p>
+<% end %>
 
 ## Requirements

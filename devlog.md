@@ -13,3 +13,8 @@ Completely forgot about the db resetting the SQL index every time the data wipes
 ## 9 December 2021
 Filled in routes for Users, Projects
 Created controllers for Users, Projects
+
+## 13 December 2021
+Added Static Controller, Static views index
+Added folders for Projects views, User views, Static views
+Squished a bug (Application::API vs Application::Base, see project notes)

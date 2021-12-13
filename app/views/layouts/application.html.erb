@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.menu {
+    margin: 0px 10px 0px 10px;
+    float: left;
+    width: 25%;
+}
+
+.main {
+    margin: 0px 10px 0px 10px;
+    width: 50%;
+    float: left;
+}
+</style>
+  <title>The Macready Manor Gardens</title>
+  <%= yield :title %>
+</head>
+
+<body>
+<h1>The Macready Manor Gardens</h1>
+
+<div class="menu">
+<h3>Public Resources</h3>
+<p class="fake-link">View All Public Projects</p>
+<p class="fake-link">Shopping Sources</p>
+<p class="fake-link">Tutorials</p>
+<br>
+
+<h3>
+<p class="fake-link">Log In</p>
+<p class="fake-link">My Profile</p>
+<p class="fake-link">My Projects</p>
+</div>
+
+<div class="main">
+<%= yield %>
+</div>
+
+</body>
+</html>
