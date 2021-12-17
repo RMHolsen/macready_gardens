@@ -2,6 +2,10 @@
 <html>
 <head>
 <style>
+.title {
+  text-align: center;
+  # Maybe some other color formatting goes here IDK 
+}
 .menu {
     margin: 0px 10px 0px 10px;
     float: left;
@@ -14,12 +18,12 @@
     float: left;
 }
 </style>
-  <title>The Macready Manor Gardens</title>
-  <%= yield :title %>
+<title>The Macready Manor Gardens</title>
+<%= yield :title %>
 </head>
 
 <body>
-<h1>The Macready Manor Gardens</h1>
+<h1 class="title">The Macready Manor Gardens</h1>
 
 <div class="menu">
 <h3>Public Resources</h3>

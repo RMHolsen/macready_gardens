@@ -18,3 +18,8 @@ Created controllers for Users, Projects
 Added Static Controller, Static views index
 Added folders for Projects views, User views, Static views
 Squished a bug (Application::API vs Application::Base, see project notes)
+
+## 17 December 2021
+Verified all views currently work
+Added ApplicationHelper module
+Created Total Stitches method for User model and verified functionality and display in show view
